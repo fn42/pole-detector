@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'http://gitpod.com/drop/pole-detector.pkl'
 export_file_name = 'pole-detector.pkl'
 
-classes = ['poles', 'no poles']
+classes = ['no-poles', 'poles']
 path = Path(__file__).parent
 
 app = Starlette()

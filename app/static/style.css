@@ -41,3 +41,17 @@ button:focus {
 #image-picked {
     margin-top: 15px;
 }
+
+.logo {
+    width: 84px;
+    margin: 0 auto;
+    margin-bottom: -42px;
+    margin-top: 42px;
+}
+
+.logo img {
+    height: auto;
+    width: 100%;
+    margin-bottom: -126px;
+    margin-left: -377px;
+}

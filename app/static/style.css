@@ -3,7 +3,7 @@ body {
 }
 
 .no-display {
-    display: none;
+    display: none !important;
 }
 
 .center {
@@ -16,49 +16,28 @@ body {
 .title {
     font-size: 30px;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 5px;
     color: #262626;
 }
 
-.content {
-    margin-top: 10em;
-}
-
 .analyze {
-    margin-top: 5em;
+    margin-top: 1em;
 }
 
-.upload-label {
-    padding: 10px;
-    font-size: 12px;
+.result{
+    width: 14%;
+    margin: 0 auto;
 }
 
-.result-label {
-    margin-top: 0.5em;
-    padding: 10px;
-    font-size: 13px;
-}
-
-button.choose-file-button {
-    width: 200px;
-    height: 40px;
-    border-radius: 2px;
-    background-color: #ffffff;
-    border: solid 1px #7052CB;
-    font-size: 13px;
-    color: #7052CB;
-}
-
-button.analyze-button {
-    width: 200px;
-    height: 40px;
-    border: solid 1px #7052CB;
-    border-radius: 2px;
-    background-color: #7052CB;
-    font-size: 13px;
-    color: #ffffff;
+.sub-title {
+    margin-top: -16px;
+    color: #00000061;
 }
 
 button:focus {
     outline: 0;
+}
+
+#image-picked {
+    margin-top: 15px;
 }
